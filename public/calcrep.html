@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta charset="utf-8">
+  <title>Drywall Magana</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="images/DMfav.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<div class="topnav" id="myTopnav">
+<img class="logDM" align="left" src="images/logoclean.png" width="40%" height="120px z-index:2">
+<a href="index.html" class="active">Home</a>
+<a href="calcsheet.html">Calculate by number of sheets installed</a>
+<a href="calcsqft.html">Calculate by sq/ft</a>
+<a href="calcrep.html">Calculate by repair</a>
+<a href="#top" class="icon" onclick="myFunction()" style="position: sticky">
+    <i class="fa fa-bars" style=""></i>
+  </a>
+</div>
+
+
+    <div style="position: relative; z-index: -1">
+      <img src="images/before-pop.png" alt="Snow" style="display: block;
+max-width: 100%; float: left; height: 10%; margin: 0 .5% .5% .5%">
+    <div style="position: absolute; top: 8px color:white;
+  left: 16px"><span><h1>Before</h1></span></div>
+</div>
+
+<div style="position: relative; z-index: -1">
+  <img src="images/after-pop.png" alt="Snow" style="display: block;
+max-width: 100%; float: right; height: 10%; margin: 0 .5% .5% .5%">
+      <div><span style="position: relative; top: 12%;
+  left: 25%"><h1>After</h1></span></div>
+  </div>
+
+
+
+    <h2>Here you can find the price of common repairs. This before and after example shows a popcorn removal proyect from scraping-off the texture to the final painted product after 3 coats of mud </h2>
+
+    <br>
+    <br>
+    <div class="skill-row">
+
+
+<img src="images/logoclean.png" alt="" style=" position: absolute; display: block;
+max-width: 100%; float: left; max-width: 100%; height: 100%; margin: -3% 0 0 0; opacity: 0.2; z-index: -2">
+
+            <p style="color:white" class="content">The calculator below can help you determine the cost of labour for your popcorn removal proyect.</p>
+<hr style="margin: 3% 70% 3% 30%">
+              <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+                  <div ng-app="" ng-init="sqft=0; Height=8; Size=8">
+                  <h1>Popcorn removal Calculator</h1>
+                  <p style="color:white" class="content">1._ Squarefootage of your proyect : <input type="number" ng-model="sqft"></p>
+                  <p style="color:white" class="content">2._Height of your project (write either 8, 9 or 10 Feet: <input type="number" ng-model="Height" > Feet</p>
+
+                          <p style="color:white" class="content"><b>Total:$</b>{{(sqft * (Height*0.135)*2.777)}}</p>
+              </div>
+
+    </div>
+    <br>
+    <br>
+    <h1>Other type of repairs</h1>
+    <p style="color:white" class="content">Potlight repair: $150/each</p>
+    <p style="color:white" class="content">Corner bead repair: $300</p>
+    <p style="color:white" class="content">Patch under 6 sqft $200</p>
+    <p style="color:white" class="content">Patch over 6sqft: $500</p>
+    <br>
+    <h2>If you have several repairs please reach out with the links bellow to give you a detailed and discounted quote</h2>
+
+
+
+
+
+    <div class="bottom-container1">
+      <h2 style="text-align: center">Get in touch with Drywall Magana and follow us</h2>
+      <a class="btn" href="mailto:pegaso1998-10@hotmail.com">EMAIL DRYWALL MAGANA!</a>
+      <a class="btn" href="tel:+1-437-220-7887">CALL DRYWALL MAGANA!</a>
+      <a class="btn" href="sms:+1-437-220-7887">TEXT DRYWALL MAGANA!</a>
+    </div>
+    <script src="javasc.js"></script>
+
+    <div class="bottom-container2">
+      <p class="myname">Copyright © 2021 Drywall Magana.</p>
+      <a class="footer-link" href="https://www.instagram.com/drywall.magana/"><img src="images/instalogo.png" width="40" height="40" alt="instalogo"> </a>
+      <a class="footer-link" href="https://www.facebook.com/Drywall-magana-103796534431548"><img src="images/facelogo.png" width="40" height="40" alt="facelogo"> </a>
+      <a class="footer-link" href="https://homestars.com/companies/2928674-drywall-magana"><img src="images/homestars.png" width="40" height="40" alt=""> </a>
+    </div>
+
+  </body>
+
+</html>
