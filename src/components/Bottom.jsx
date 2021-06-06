@@ -5,7 +5,7 @@ function Bottom(params) {
 
     <div>
       <div className="bottom-container1">
-        <h2>Get in touch with Drywall Magana and follow us</h2>
+        <h2 style={{textAlign: 'center'}} >Get in touch with Drywall Magana and follow us</h2>
         <a className="btn" href="mailto:pegaso1998-10@hotmail.com">EMAIL DRYWALL MAGANA!</a>
         <a className="btn" href="tel:+1-437-220-7887">CALL DRYWALL MAGANA!</a>
         <a className="btn" href="sms:+1-437-220-7887">TEXT DRYWALL MAGANA!</a>
